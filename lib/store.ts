@@ -1,8 +1,9 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import signInSlice from './features/sign-in/signInSlice';
+import { signInSlice } from '.';
 
 const rootReducer = combineReducers({
     signIn: signInSlice,
+    
 })
 
 export const makeStore = () => configureStore({

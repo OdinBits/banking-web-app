@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormControl, FormField, FormLabel, FormMessage } from './ui/form';
 import { Input } from './ui/input';
-const CustomInput = ({form, name, label, placeholder, type}: any) => {
+const CustomInput = ({form, name, label, placeholder}: any) => {
 
     return (
         <FormField
@@ -17,7 +17,6 @@ const CustomInput = ({form, name, label, placeholder, type}: any) => {
                             <Input
                                 placeholder={placeholder}
                                 className="input-class"
-                                type={type}
                                 {...field}
                             />
                         </FormControl>

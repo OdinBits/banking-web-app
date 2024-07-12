@@ -1,10 +1,9 @@
 'use server';
 
-import signInSlice from "./features/sign-in/signInSlice";
-import signUpSlice from "./features/sign-up/signUpSlice";
-
-import { signInThunk } from "./features/sign-in/signInThunk";
-import { signUpThunk } from "./features/sign-up/signUpThunk";
+import signInSlice from "./redux/sign-in/signInSlice";
+import { signInThunk } from "./redux/sign-in/signInThunk";
+import signUpSlice from "./redux/sign-up/signUpSlice";
+import { signUpThunk } from "./redux/sign-up/signUpThunk";
 
 export {
     signInSlice,
